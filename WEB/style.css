@@ -215,8 +215,8 @@
     flex-direction: row;
     width: 90%;
     justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .L1{
@@ -225,6 +225,9 @@
     width: 50%;
     font-size: 30px;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .space0{
@@ -236,13 +239,13 @@
 }
 
 .space2{
-    margin-top: 400px;
+    margin-top: 70%;
 }
 
 .L2{
     color: black;
     margin: 20px;
-    width: 50%;
+    width: 70%;
     height: max-content;
     font-size: 20px;
     font-weight: lighter;
@@ -336,6 +339,10 @@
     text-align: center;
 }
 
+.L5{
+    width: 100%;
+}
+
 .B2{
     border: solid;
     padding-top: 0%;
@@ -348,7 +355,7 @@
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 5%;
 }
 
