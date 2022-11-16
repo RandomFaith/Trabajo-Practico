@@ -1,0 +1,383 @@
+.body{
+    display: grid;
+    background-color: rgb(66,126,128);
+    position: absolute;
+    margin: 0px ;
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    display: flex;
+    background-color: rgb(66,126,128);
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.PC{
+    display: grid;
+    height: 60px;
+    margin-top: 0px;
+    margin-left: 5vw;
+    background-color: rgba(0, 0, 0, 0.055);
+    padding: 10px;
+}
+
+.M11{
+    width: 60px;
+    height: 40px ;
+    margin-left: 24%;
+    margin-bottom: 5px;
+    background-color: rgb(63, 103, 151);
+    border-radius: 5px;
+}
+
+.M12{
+    width: 50px;
+    height: 30px ;
+    margin: 5px;
+    top: 10%;
+    background-color: rgb(177, 213, 228);
+    border-radius: 5px;
+}
+
+.T11{
+    width: 50px;
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    border-right: 35px solid transparent;
+    border-left: 35px solid transparent;
+    border-bottom: 20px solid rgb(63, 103, 151);
+}
+
+.T12{
+    position: absolute;
+    width: 40px;
+    height: 0px;
+    margin: 5px;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-bottom: 10px solid rgb(177, 213, 228);
+}
+
+.min{
+    padding-top: 30px;
+}
+
+.BL{
+    background-color:  rgb(240,245,228);
+    color: rgb(66,126,128);
+    border-radius: 10px;
+    border-color: rgb(21,68,84);
+    padding: 10px;
+    margin-right: 50px;
+    text-decoration:none;
+    border-right:solid ;
+    border-bottom:solid ;
+    border-color: rgb(21,68,84);
+}
+
+.T1{
+    position: absolute;
+    top: 270px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.T2{
+    background-color: rgb(45,45,45);
+    width: fit-content;
+    font-size: 55px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+.titulo{
+    width: 100%;
+    height: 500px;
+}
+
+.C0{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5px;
+    padding-bottom: 150px;
+}
+
+.C1{
+    display: grid;
+    border: solid;
+    color: rgb(21,68,84);
+    background-color: rgb(240,245,228);
+    height: fit-content;
+    width: 35%;
+}
+
+.H2{
+    font-size: 35px;
+    color: white;
+}
+
+.img1{
+    width: 100%;
+    height: 100%;
+}
+
+.hh{
+    color: #000;
+    padding-top: 15px ;
+    padding-bottom: 15px;
+    text-decoration:none;
+    font-family: serif;
+    text-align: center;
+}
+
+.B0{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.B1{
+    background-color:  rgb(66,126,128);
+    color: rgb(240,245,228);
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    height: fit-content;
+    width:fit-content ;
+    text-decoration:none;
+    border-right:solid ;
+    border-bottom:solid ;
+    border-color: rgb(21,68,84);
+}
+
+.footer{
+    height: 80px ;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(45,45,45);
+    color: white;
+}
+
+.T3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    width: 25%;
+    height: fit-content;
+    font-size: 15px;
+}
+
+
+@media (min-width: 600px) {
+
+    .T3{
+        font-size: 20px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+}
+
+@media (max-width: 521px) {
+
+    .body{
+        width: 521px;
+    }    
+    
+    .T3{
+        font-size: 15px;
+    }
+
+}
+
+.boby2{
+    display: grid;
+    position: absolute;
+    margin: 0px ;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(66,126,128);
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.L1{
+    color: white;
+    margin: 20px;
+    width: 50%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.space0{
+    margin-top: 90px;
+}
+
+.space1{
+    margin-top: 120px;
+}
+
+.space2{
+    margin-top: 400px;
+}
+
+.L2{
+    color: black;
+    margin: 20px;
+    width: 50%;
+    height: max-content;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.L3{
+    color: white;
+    height: fit-content;
+    width: 90%;
+    text-align: center;
+    font-size: 45px;
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 0px;
+    width: 90%;
+    padding: 0xp;
+    height: fit-content;
+}
+
+.contenedor3{
+    background-color: black;
+    display: block;
+    width: 80%;
+    padding: 10px  ;
+    height: fit-content;
+}
+
+.video{
+    width: 100%;
+    height: 50%;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+.BL2{
+    margin-top: 4px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 15px;
+}
+
+.CON1{
+    height: 200px;
+}
+
+.controles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    background-color: rgb(45,45,45);
+    margin-top: 5px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+
+}
+
+.span{
+    color: white;
+    margin: 15px;
+}
+
+.logo{
+    height: 80px;
+}
+
+@media (max-width: 550px) {
+
+    .boby2{
+        width: 550px;
+    }
+
+}
+
+.boby3{
+    display: grid;
+    background-color: rgb(66,126,128);
+    position: absolute;
+    margin: 0px ;
+    width: 100%;
+    height: 100%;
+}
+
+.L4{
+    margin: 20px;
+    padding-top: 10%;
+    text-align: center;
+}
+
+.B2{
+    border: solid;
+    padding-top: 0%;
+    text-align: center;
+}
+
+.contenedor4{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.img2{
+    width: 20%;
+    height: 80%;
+    font-size: 10px;
+    background-color: rgb(150, 150, 150);
+}
+
+.img3{
+    width: 100%;
+    height: 100%;
+    padding: -0px;
+    margin: 0px;
+}
+
+.BDL4{
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 60px;
+}
+
+@media (max-width: 550px) {
+
+    .boby3{
+        width: 550px;
+    }
+
+}
